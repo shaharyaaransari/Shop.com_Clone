@@ -1,0 +1,132 @@
+#head{
+    background-color: rgb(11, 11, 58);
+   text-decoration: none;
+    height: 50px;
+    font-size: larger;
+    margin: auto;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    color: white;
+    font-weight: 500;
+   
+}
+div #a{
+    color: antiquewhite;
+    padding-top: 10px;
+    margin: auto;
+    text-decoration: none;
+    padding-left: 5%;
+    cursor: pointer;
+ 
+}
+#main{
+    background-color: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.search{
+   
+    width: 97%;
+   height: 90px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px  20px;
+    padding-top: 10px;
+
+   
+}
+.searchbar{
+    width:45%;
+    max-height: 700px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    border: 1px solid rgb(18, 18, 70);
+
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    padding: 15px 20px;
+}
+
+.searchbar button img{
+ width: 25px;
+ border-radius: 20px;
+}
+.searchbar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background:rgb(13, 13, 61);
+    cursor: pointer;
+}
+.im{
+    width: 200px;
+}
+
+/* nav part */
+#cat{
+    display: flex;
+    width: 90px;
+    color: rgb(5, 5, 61);
+    font-size: 20px;
+}
+
+#q{
+    padding:5px 5px;
+}
+
+#navbar ul{
+    overflow: auto;
+    padding: 3px 3px;
+}
+#navbar li{
+ float: left;
+ list-style: none;
+ color:rgb(5, 5, 61);
+ margin: 5px 5px ;
+}
+#navbar li a{
+    text-decoration: none;
+    color: rgb(5, 5, 61);
+}
+
+#log ul{
+   overflow: auto;
+   padding: 2px 20px;
+}
+#log li{
+    float: left;
+    list-style: none;
+    color:rgb(5, 5, 61);
+    margin: 13px 20px ;
+   
+   
+}
+
+#log li a{
+    text-decoration: none;
+    color: rgb(5, 5, 61);
+}
+#sign{
+    display: flex;
+   
+    
+    margin-left: 120px;
+    justify-content: space-between; 
+}
+ #sign #midpart{
+  
+   
+  
+    padding: 0px 25px;
+}
