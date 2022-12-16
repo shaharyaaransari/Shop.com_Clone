@@ -392,3 +392,123 @@ color: #202340;
     margin-top: 20px;
     padding: 10px 10px;
 }
+
+/* layered style */
+.b{
+    width: 2%;
+}
+
+.cell{
+    width:33%;
+    margin: 0px 5px;
+    overflow: hidden;
+    border-radius: 5px;
+    
+}
+.cell img{
+    width: 90%;
+    object-fit: cover;
+}
+h4{
+    font-weight: normal;
+    color: #202340;
+}
+h3{
+    color: #10132a;
+}
+.aq{
+    color: teal;
+}
+
+.layeredpart{
+    width: 50%;
+    padding-top: 10%;
+}
+
+.layeredHead{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.firstlayerdpic img{
+    width: 80%;
+}
+.firstlayerdpic h2{
+     font-style:oblique;
+     color: rgb(37, 34, 34);
+}
+
+.main-carousel{
+    width: 100%;
+    padding-top: 20px;
+}
+
+/* shopHob */
+.ss{
+    width: 50%;
+    
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    text-align: center;
+}
+.shop img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+   
+}
+.shop div{
+    padding-top: 15px;
+   
+}
+.cen p{
+    text-align: center;
+    color: #0c0d14;
+    width: 90%;
+    font-weight: bold;
+}
+.vv{
+    width: 4%;
+}
+
+/* Holiday Specail */
+.circle img{
+    width: 70%;
+     border-radius: 50%;
+     border: 7px solid rgb(145, 145, 145);
+ }
+ .circle{
+     display: grid;
+     width: 90%;
+     margin: auto;
+     grid-template-columns: repeat(6,1fr);
+     padding-bottom: 10px;
+     padding-top: 10px;
+ }
+ 
+ .giftIdeas{
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+ }
+
+
+ .circle p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-left: 40px;
+    color: rgb(49, 47, 47);
+ }
+ .imag{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    padding: 20px 0px;
+ }
+ 
+ .imag img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+ }
