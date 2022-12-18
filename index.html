@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="style.css">
     <!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
@@ -19,7 +22,7 @@
     <div id="head">
     <div>
         <p id="a">1st time customers saves 25% on E-Lifestyle Shop.com on exclusive using code FIRST250OFF
-            MAX $25 discount.Terms Apply. <a href="./term.html">Click Here</a>
+            MAX $25 discount.Terms Apply. <a style="color: white;" href="./term.html">Click Here</a>
          </p> 
     </div> 
     
@@ -29,7 +32,7 @@
         <img src="E-Lifestyle Shop (2) (1).png" class="im" alt="">
         <form action="" class="searchbar">
             <input type="text" name="E-Lifestyle Shop SEARCH" placeholder=" E-Lifestyle Shop.COM" id="q">
-            <button type="submit"><img src="https://th.bing.com/th/id/OIP.s2fpUGqUzC_uxD_d_j-WlQHaGS?w=223&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt=""></button>
+            <button type="submit"><i style="color: white;" class="bi bi-search"></i></button>
         </form>
         <img src="https://img.shop.com/Image/header2013/layered-us-eng-105972-blk-friday-banner-300x50-11670940062489.jpg" alt="">
       </div>
@@ -62,7 +65,7 @@
                 <ul>
                    <li>
                     <img src="https://img.shop.com/Image/resources/images/icon-sign-in-24px.svg" alt="">
-                    <a href="#">sigin</a>
+                    <a href="./signin.html">sigin</a>
                    </li>
                    <li>
                     <img src="https://img.shop.com/Image/resources/images/icon-orders-24px.svg" alt="">
@@ -628,9 +631,155 @@
         <img src="https://img.shop.com/Image/homepage/isotonix-usa-105568-opc3-beauty-blend-banner-media1671109554812.jpeg" alt="">
     </div>
  </div>
-  
+<!-- Cleaning and health ------------------------------------------------------------>
 
+<div class="headerpart">
+    <div><h1>Cleaning & Health Have Never Been More Important</h1></div>
+    <div id="clean-health">
+            
+        <button class="btn-left" onclick="slideLeft()"><i class="bi bi-arrow-left"></i></button>
+        <button class="btn-right" onclick="slideRight()"><i class="bi bi-arrow-right"></i></button>
+    <div id="slide-area">
+        <div class="card">
+            <img src="https://img.shop.com/Image/210000/214100/214196/products/561800345.jpg?plain&size=600x600" alt="">
+            <h3>Isotonix® Vitamin D with K2</h3>
+            <p>$33.50 - $79.95</p>
+           
+            <p>up to $1.60 / 2%
+                <img id="dollar"
+              src="https://img.shop.com/Image/resources/images/cashback-icon.svg" alt=""> Cashback</p>
+            <a href="">Free shipping with $99 orders</a>
+        </div>
+        <div class="card">
+            <img src="https://img.shop.com/Image/240000/243300/243390/products/1954251785.jpg?plain&size=600x600" alt="">
+            <h3>DNA Miricales Isotonix® Immune</h3>
+            <p>$22.50</p>
+            
+            <p>up to $1.60 / 2% <img id="dollar"
+                src="https://img.shop.com/Image/resources/images/cashback-icon.svg" alt="">
+                Cashback</p>
+            <a href="">Free shipping with $99 orders</a>
+        </div>
+        <div class="card">
+            <img src="https://img.shop.com/Image/210000/214200/214267/products/559010729.jpg?plain&size=600x600" alt="">
+            <h3>ClearShield® Maximum Protection and Hydration </h3>
+            <p>$13.95 - $23.95</p>
+            <p>up to $1.60 / 2% <img id="dollar"
+                src="https://img.shop.com/Image/resources/images/cashback-icon.svg" alt="">
+                 Cashback</p>
+            <a href="">Free shipping with $99 orders</a>
+        </div>
+        <div class="card">
+            <img src="https://img.shop.com/Image/210000/214100/214196/products/912160941.jpg?plain&size=600x600" alt="">
+            <h3>Isotonix® Vitamin C</h3>
+            <p>$61.50 </p>
+           
+            <p>up to $1.60 / 2% <img id="dollar"
+                src="https://img.shop.com/Image/resources/images/cashback-icon.svg" alt="">
+                Cashback</p>
+            <a href="">Free shipping with $99 orders</a>
+        </div>
+        <div class="card">
+            <img src="https://img.shop.com/Image/240000/243300/243390/products/1954251779.jpg?plain&size=600x600" alt="">
+            <h3>Snap™ Shopping Annuity Heavy Duty Concentrate</h3>
+            <p>$12.50</p>
+            <p>up to $0.71 / 2% <img id="dollar"
+                src="https://img.shop.com/Image/resources/images/cashback-icon.svg" alt="">
+                Cashback</p>
+            <a href="">Free shipping with $99 orders</a>
+        </div>
+        <div class="card">
+            <img src="https://img.shop.com/Image/240000/243300/243396/products/603891601.jpg?plain&size=600x600" alt="">
+            <h3>Ultimate Aloe™</h3>
+            <p>$27.95</p>
+           
+            <p>up to $0.56 / 2% <img id="dollar"
+                src="https://img.shop.com/Image/resources/images/cashback-icon.svg" alt="">
+                Cashback</p>
+                 Cashback</p>
+            <a href="">Free shipping with $99 orders</a>
+        </div>
+        <div class="card">
+            <img src="https://img.shop.com/Image/210000/214100/214196/products/893741343.jpg?plain&size=600x600" alt="">
+            <h3>Isotonix® Immune</h3>
+            <p> $43.50 - $99.95 </p>
+            <p>up to $0.50 / 2%  <img id="dollar"
+                src="https://img.shop.com/Image/resources/images/cashback-icon.svg" alt="">
+                Cashback</p>
+            <a href="">Free shipping with $99 orders</a>
+        </div>
+    </div>
+</div>
 
+</div>
+<!-- Our Brandst -->
+  <div class="our">
+    <h1>Our Brands</h1>
+    <div class="Brand">
+        <div>
+           <h3>HEALTH & NUTRION</h3>
+           <img src="https://img.shop.com/Image/homepage/healthnutirtion1572880380738.jpg" alt="">
+        </div>
+        <div>
+           <h3>BEAUTY</h3>
+           <img src="https://img.shop.com/Image/homepage/lipstick1572880828301.jpg" alt="">
+        </div>
+        <div>
+           <h3>HOME & CLEANING</h3>
+           <img src="https://img.shop.com/Image/homepage/home_ma1572880950379.jpg" alt="">
+        </div>
+        <div>
+           <h3>BABY & KIDS</h3>
+           <img src="https://img.shop.com/Image/homepage/baby-kids1572881179463.jpg" alt="">
+        </div>
+        <div>
+           <h3>JEWERLY</h3>
+           <img src="https://img.shop.com/Image/homepage/1840336563__225x225-img__.jpg" alt="">
+        </div>
+         </div>
+  </div>
+  <footer>
+    <div class="row-1"><span>Link To This Page & Tell All Your Friends!</span><button>copy link</button></div>
+    <div class="row-2">
+        <ul>
+            <li>About Us</li>
+            <li>Help</li>
+            <li>Accessibility Statement</li>
+            <li>Contact Us</li>
+            <li>Partner With Us</li>
+            <li>Services</li>
+            <li>Country/Region</li>
+            <li>Connect</li>
+            <li>Own Your Own SHOP Site</li>
+        </ul>
+        <div class="icons">
+            <i class="bi bi-envelope-fill"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-pinterest"></i>
+        </div>
+    </div>
+    <div class="row-3">
+        <p>© 1997-2022 Market America, Inc. or its affiliates. All other designated trademarks, copyrights, and brands are the property of their respective owners.</p>
+        <p>Only Customers will receive cashback on qualifying purchases. UnFranchise Owners/Shop Consultants will receive increased IBV instead of cashback on qualifying purchases.</p>
+        <p>Privacy Policy | Terms of Use | Advertising Disclosure | Return Policy | Shipping Information</p>
+    </div>
+    <div class="row-4">
+       <div> <img src="https://img.shop.com/Image/images/ir/Shop-ranks-19-in-newsweek-circle.png" alt="">
+       </div>
+       <div><img src="https://img.shop.com/Image/images/ir/DC360_2022_rank_10_top_500_primary_merch_category.png" alt=""></div>
+       <div><img src="https://img.shop.com/Image/images/ir/DC360_2022_rank_55_top_100.png" alt=""></div>
+       <div><img src="https://img.shop.com/Image/images/ir/DC360_2022_rank_80_top_500_and_1000.png" alt=""></div>
+       <div><img src="https://img.shop.com/Image/images/ir/Shop-ranks-13-in-NC-circle.png" alt=""></div>
+       <div><img src="https://img.shop.com/Image/images/ir/commonwealth_2022_rank_22_top_2000_tw_english.png" alt=""></div>
+       <div><img  id="torch"
+        src="https://img.shop.com/Image/resources/images/torch-tafe2018-badge.png" alt=""></div>
+       <div><img src="https://seal-greensboro.bbb.org/seals/blue-seal-153-100-marketamericashopcom-4002355.png" alt=""></div>
+    </div>
+    
+
+   </footer>
+     <script src="./slideshow.js"></script>
 </body>
 </html>
 
