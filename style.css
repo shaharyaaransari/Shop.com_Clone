@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 #head{
     background-color: rgb(11, 11, 58);
    text-decoration: none;
@@ -23,6 +27,8 @@ div #a{
 #main{
     background-color: rgb(236, 236, 236);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+   
 }
 
 
@@ -40,11 +46,13 @@ div #a{
 }
 .searchbar{
     width:45%;
-    max-height: 700px;
+    max-height: 45px;
     border-radius: 30px;
     align-items: center;
     display: flex;
     border: 1px solid rgb(18, 18, 70);
+    border-right: none;
+    background-color: white;
 
 }
 .searchbar input{
@@ -54,7 +62,7 @@ div #a{
     font-size: 20px;
     color: black;
     outline: none;
-    padding: 15px 20px;
+    padding: 15px 20px !important;
 }
 
 .searchbar button img{
@@ -63,11 +71,12 @@ div #a{
 }
 .searchbar button{
     border: 0;
-    border-radius: 50%;
     width: 60px;
-    height: 60px;
+    height: 47px;
     background:rgb(13, 13, 61);
     cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    font-size: 21px;
 }
 .im{
     width: 200px;
@@ -109,6 +118,9 @@ div #a{
     list-style: none;
     color:rgb(5, 5, 61);
     margin: 13px 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #log li a{
@@ -182,7 +194,7 @@ padding-top: 10px;
     
 }
    .co{
-    width: 4%;
+    width: 1.9%;
    }
    #cash .p{
     font-size: 25px;
@@ -281,7 +293,7 @@ gap:20px 20px;
     mix-blend-mode: multiply; 
  }
 .in{
-    width: 8%;
+    width: 4%;
     margin-top: 10px;
 }
 
@@ -302,7 +314,10 @@ gap:20px 20px;
 h1{
     text-align: center;
     color: rgb(39, 38, 38);
+    font-style: oblique;
+    padding-top: 10px;
 }
+
 .cap .p{
     width: 15%;
     font-size: 20px;
@@ -414,6 +429,7 @@ h4{
     color: #202340;
 }
 h3{
+    font-size: initial;
     color: #10132a;
 }
 .aq{
@@ -512,3 +528,216 @@ h3{
  .imag img{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
  }
+
+ /*our Brands */
+ .Brand {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-bottom: 20px;
+    text-align: center;
+ }
+ .our{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+    margin-top: 30px;
+    padding-top: 10px;
+ }
+
+ /* Sign In CSS */
+ #signinform{
+    display: flex;
+    justify-content: center;
+    margin: 9em 12em;
+    gap: 13em;
+ }
+ #signinform .rightpart{
+     padding-right: 10em;
+    }
+    #signinform .rightpart a:hover{
+        color: white;
+        background-color: #202340;
+
+    }
+    #signinform .rightpart a{
+        text-decoration: none;
+        color: #202340;
+        border: 1px solid #202340;
+        border-radius: 2em;
+        padding: 0.5em 1em;
+        font-size: 18px;
+        font-weight: 600;
+        position: relative;
+    top: 1em;
+    }
+
+
+    /* Footer  */
+
+    footer .row-1{
+        background: #545871;
+        padding: 1em;
+        display: flex;
+        justify-content: end;
+        gap: 1em;
+        color: white;
+    }
+    footer .row-2{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        background: #545871;
+        border-top: 1px solid white;
+    }
+    footer .row-2 .icons{
+        color: white;
+        font-size: 20px;
+    }
+    footer .row-2 ul li::after{
+        content: " |";
+    }
+    footer .row-2 ul li:last-child::after{
+        content: "";
+    }
+    footer .row-2 ul{
+        list-style: none;
+        display: flex;
+        gap: 0.5em;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+    footer .row-3{
+        padding-left: 1em;
+        line-height: 0.4;
+        font-size: 14px;
+        color: #202340;
+    }
+    footer .row-4{
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    /* Clean and health */
+     .headerpart{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+     }
+
+    #clean-health{
+        display: flex;
+        width: 94em;
+        margin-top: 1em;
+        overflow: hidden;
+        position: relative;
+        
+    }
+    #clean-health #slide-area{
+        display: flex;
+        transition: transform 1s ease;
+    }
+    
+    #clean-health .card{
+        width: 20em;
+    }
+    #clean-health .card img{
+        width: 20em;
+    }
+    #clean-health .btn-left, #clean-health .btn-right{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 1em;
+        background: white;
+        border: 1px solid;
+        border-radius: 60%;
+        font-size: 18px;
+        z-index: 1;
+        
+    }
+    #clean-health .btn-left{
+        left: 0;
+    }
+    #clean-health .btn-right{
+        right: 0;
+    }
+   p #dollar{
+        width: 5%!important;
+    }
+    .card a{
+        text-decoration: none;
+    color: teal;
+    }
+    #torch{
+        width: 8em;
+    }
+    .row-4{
+        margin-top: 1em;
+    }
+    
+    .leftpart input{
+        width: 21em;
+    height: 2em;
+    border-collapse: collapse;
+    padding-left: 1em;
+    font-size: unset;
+    }
+    .signbtn{
+        width: 27em;
+    height: 3em;
+    margin-top: 1em;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    border: white;
+    background-color: #414467;
+    }
+    #signinform{
+        color: #414467;
+        font-weight: bolder;
+    }
+    #create{
+        width: 22em;
+    height: 3.2em;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    border: white;
+    background-color: #414467;
+    }
+    #registerform input{
+        width: 21em;
+    height: 2em;
+    border-collapse: collapse;
+    padding-left: 1em;
+    font-size: unset;
+    
+    }
+    #registerform{
+        color: #414467;
+        margin-bottom: 20px;
+    }
+    .first25Terms{
+        padding: 40px;
+        border: 1px #7fe1f5 solid;
+        text-align: left;
+        max-width: 600px;
+        width: 100%;
+        margin: 10px auto;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .first25Terms{
+        color: #808080;
+    }
+  .first25Terms h1{
+    font-family: sans-serif;
+    color: #04a8ca;
+    padding: 0;
+    margin: 0 0 20px;
+    line-height: 30px;
+  }
+
